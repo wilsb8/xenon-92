@@ -762,17 +762,20 @@ a:hover {
 
 @media (min-width: 768px) {
   .hero .hero-title {
+    font-family: 'Rajdhani', sans-serif;
     font-size: 4.5rem;
   }
 }
 
 .hero .hero-subtitle {
   font-size: 1.5rem;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
 }
 
 @media (min-width: 768px) {
   .hero .hero-subtitle {
+    font-family: 'Rajdhani', sans-serif;
     font-size: 2.5rem;
   }
 }
