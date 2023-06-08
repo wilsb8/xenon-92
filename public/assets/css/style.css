@@ -7,14 +7,13 @@ body {
   color: #4e4e4e;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Rajdhani', sans-serif;
 }
 
 h2,
 h3,
 h4,
-h5,
 h6 {
   color: #1e1e1e;
 }
@@ -96,7 +95,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: rgb(19, 20, 20);
 }
 
 .overlay-mf {
@@ -183,7 +182,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: red;
   width: 100px;
   bottom: -12px;
 }
@@ -224,12 +223,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px black;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: red;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -253,7 +252,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: black;
   margin-right: 10px;
 }
 
@@ -266,7 +265,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px red;
   display: block;
 }
 
@@ -349,7 +348,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: black;
   color: #fff;
 }
 
@@ -1189,7 +1188,7 @@ a:hover {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  border-color: #0078ff;
+  border-color: black;
 }
 
 .php-email-form input {
@@ -1202,7 +1201,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: black;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1210,7 +1209,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: red;
 }
 
 @keyframes animate-loading {
